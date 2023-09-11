@@ -1,0 +1,7 @@
+@media (max-width: 500px) { 
+    .container_menu-title >h1{
+        
+        font-size: 1rem;
+        
+    }
+ }

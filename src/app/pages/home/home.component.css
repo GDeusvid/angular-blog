@@ -1,7 +1,25 @@
 .container_articles{
+    width: 100vw;
     margin-top: 2rem;
     display: flex;
     justify-content: center;
 }
+.articles_others{
+    width: 40vw;
+}
 
-
+@media (max-width: 576px) { 
+    .container_articles{
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .articles_others{
+        width: 100%;
+    }
+    .articles_main{
+        
+    }
+    
+ }

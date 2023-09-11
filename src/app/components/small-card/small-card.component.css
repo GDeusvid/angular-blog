@@ -1,12 +1,17 @@
+.container_small-card{
+margin-left: 1rem;
+}
+
 .container_small-card-content{
     
     display: flex;
-    width: 700px;
+    width: 100%;
 }
 .small-card_photo>img{
     width: 200px;
-    min-width: 200px;
+    
     margin-right: 20px;
+    
 }
 .small-card_title{
     display: flex;
@@ -16,3 +21,26 @@
 .container_small-card_separator{
     margin: .8rem 0;
 }
+@media (min-width: 577px) { 
+    .small-card_photo>img{
+        
+        min-width: 200px;
+        
+        
+    }
+    
+ }
+@media (max-width: 576px) { 
+    .container_small-card_separator{
+        margin: .8rem 0;
+        width: 90vw;
+    }
+    .small-card_photo>img{
+        width: 40vw;
+        margin-right: 20px;
+        
+    }
+    h1{
+        font-size: 1rem;
+    }
+ }
